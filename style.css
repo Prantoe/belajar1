@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Play');
+.navbar{
+	width: 1000px;
+	height: 50px;
+	background-color:#383236;
+	margin:auto;
+	margin-top:-16px;
+}
+.navbar ul{
+	text-align: left;
+}
+.navbar ul li{
+	display: inline;
+	line-height: 50px;		
+}
+.navbar ul li a{
+	color: #d3c6cf;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 6px 15px;
+}
+.navbar ul li a:hover{
+	color: white;
+	background-color: #dd61b7;
+	border-radius: 6px;	
+}
+/*=========================*/
+.conten{
+	width:1000px;
+	height:600px;
+	margin:auto;
+}
+.kiri {
+	width:700px;
+	height:600px;
+	background-color:#f7eff4;
+	float:left;
+}
+.kiri img{
+	width:200px;
+	float:left;
+}
+.kiri h2{
+	font-family: "Spectral SC";
+	text-align: center;
+}
+.kiri p{
+	font-family:"Montserrat";
+	text-align:justify;
+	padding:0px 10px;
+}
+
+.kanan{
+	width:300px;
+	height:600px;
+	background-color:#f7eaf1;
+	float:left;
+}
+.box{
+	height: 40px;
+	width:250px;
+	background-color:#a3758e;
+	margin:auto;
+	border-radius:12px;
+}
+.box1{
+	height: 400px;
+	width: 250px;
+	background-color: #dbafc7;
+	margin:auto;
+	margin-top:-6px;
+}
+.box h2{
+	font-family:"Montserrat|Play";
+	font-weight:bold;
+	text-align:center;
+	padding:5px 5px;
+}
+/*===========dropdown menu===============*/
+i{
+    color:white;
+    margin-left:5px;
+    margin-right:5px;
+    line-height: 40px;
+}
+#menu ul li{
+    height:40px;
+    width:100%;
+    line-height: 30px;
+    border-bottom: 1px solid white;
+}
+#menu ul li a{
+    text-decoration: none;
+    color:white;
+    margin-left: 5px;
+}
+#menu ul li:hover{
+    background: black;
+}
+#menu ul li:hover ul{
+    display: block;
+}
+#menu ul li ul{
+    display: none;
+    background:#8b9dc3;
+    width:100%;
+    position:relative;
+    left:101%;
+    bottom:75%;
+}   
+#menu ul li ul li{
+    
+}
+.footer{
+	width:1000px;
+	height:50px;
+	background-color: #383236;
+	margin:auto;
+	margin-top:-20px;
+}
+.footer h4{
+	text-align: center;
+	font-family:sans-serif;
+	line-height:50px;
+	color:#e5d7df;
+}
